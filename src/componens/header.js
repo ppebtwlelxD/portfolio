@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./buttons.css";
+import Main from "./main"
 
-const Header = () => { 
+const Header = () => {
+  const [content, setcontent] = useState("Click");
 
-    return (
+  function handleClickDesign() {
+    setcontent("design");
+  }
+  function handleClickCode() {
+    setcontent("code");
+  }
+  function handleClickOther() {
+    setcontent("other");
+  }
+
+  return (
+    <div>
       <header>
-        <button className="button button1">Design</button>
-        <button className="button button1">Code</button>
-        <button className="button button1">Other</button>
-        <br />
-        <button className="button button2">Design</button>
-        <button className="button button2">Code</button>
-        <button className="button button2">Other</button>
-        <br />
-        <button className="button button3">Design</button>
-        <button className="button button3">Code</button>
-        <button className="button button3">Other</button>
+        <button onClick={handleClickDesign} className={content}>
+          Design
+        </button>
+        <button onClick={handleClickCode} className={content}>
+          Code
+        </button>
+        <button onClick={handleClickOther} className={content}>
+          Other
+        </button>
       </header>
-    );
-    
-}
+      <Main content={content}/>
+    </div>
+  );
+};
+
 export default Header;

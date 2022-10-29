@@ -1,18 +1,20 @@
+import React from "react";
+import "./main.css";
+import Svg from "./svgs";
 
-import React from 'react';
-import './main.css'
-import Svg from "./svgs"
+const Main = (content) => {
 
-const Main = () => { 
+  console.log(content)
 
-
-    return (
-       
-      <main>
-        <Svg colur="#FFF4BF"/>
-      </main>
-    );
-   };
-
+  if ((content = "design")) {
+    return <p>design</p>;
+  }
+  if ((content = "code")) {
+    return <p>code</p>;
+  }
+  if ((content = "others")) {
+    return <p>others</p>;
+  }
+};
 
 export default Main;

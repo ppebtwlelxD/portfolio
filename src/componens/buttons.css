@@ -1,4 +1,4 @@
-.button {
+button {
     background-color: #92BEFF; /* Green */
     border: none;
     color: white;
@@ -11,10 +11,6 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-  .button1 {
-    background-color: #92BEFF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
@@ -24,14 +20,19 @@
     color: #DADADA; 
     border: 1px solid #DADADA; 
   }
-  
-  .button2 {
+    .design {
+    background-color: #92BEFF;
+    color: #1D1D1D;
+    border: 1px solid #1D1D1D; 
+  }
+
+  .code {
     background-color: #FFF4BF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
   
-  .button3 {
+  .other {
     background-color: #DF8282;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 

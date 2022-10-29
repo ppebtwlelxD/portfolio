@@ -8,7 +8,6 @@ const Footer = () => {
       <footer>
         <div className="socals"></div>
         <div className="links">
-          <a href="https://portfolioandretest.netlify.app/">ass</a>
         </div>
         <div id="contact">
           <h3>Contact</h3>
