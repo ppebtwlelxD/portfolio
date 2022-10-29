@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Footer from "./componens/footer.js"
 import Header from "./componens/header.js"
 import Main from "./componens/main.js"
