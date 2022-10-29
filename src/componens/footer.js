@@ -2,11 +2,8 @@
 import React from 'react';
 import './footer.css'
 
-class Footer extends React.Component {
-  render(
-
-
-  ) {
+const Footer = () => { 
+  
     return (
       <footer>
         <div className="socals"></div>
@@ -24,6 +21,6 @@ class Footer extends React.Component {
           </div>
         </footer>
     );
-  }
+  
 }
 export default Footer;

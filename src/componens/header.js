@@ -1,7 +1,8 @@
 import React from "react";
 import "./buttons.css";
-class Header extends React.Component {
-  render() {
+
+const Header = () => { 
+
     return (
       <header>
         <button className="button button1">Design</button>
@@ -17,6 +18,6 @@ class Header extends React.Component {
         <button className="button button3">Other</button>
       </header>
     );
-  }
+    
 }
 export default Header;
