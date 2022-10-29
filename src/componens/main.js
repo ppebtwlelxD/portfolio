@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './main.css'
+import Svg from "./svgs"
 class Main extends React.Component {
   render(
 
@@ -8,7 +9,7 @@ class Main extends React.Component {
   ) {
     return (
       <main>
-        Main
+        <Svg colur="#FFF4BF" />
       </main>
     );
   }
