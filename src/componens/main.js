@@ -1,20 +1,46 @@
-import React from "react";
-import "./main.css";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import "./buttons.css";
+import Other from "./other.js";
+import Design from "./design.js";
+import Code from "./code.js";
 
+const Main = () => {
+  const [content, setcontent] = useState("Click");
 
-const Main = (content) => {
-
-  console.log(content)
-
-  if ((content = "design")) {
-    return <p>design</p>;
+  function handleClickDesign() {
+    setcontent("design");
   }
-  if ((content = "code")) {
-    return <p>code</p>;
+  function handleClickCode() {
+    setcontent("code");
   }
-  if ((content = "others")) {
-    return <p>others</p>;
+  function handleClickOther() {
+    setcontent("other");
   }
+
+  return (
+    <Router>
+      <div>
+        
+        <div className="linkdiv">
+        <Link onClick={handleClickDesign} className={content} to="/">
+          Design
+        </Link>
+        <Link onClick={handleClickCode} className={content} to="/Code">
+          Code
+        </Link>
+        <Link onClick={handleClickOther} className={content} to="/Other">
+          Other
+        </Link>
+        </div>
+        <Routes>
+          <Route path="/" element={<Design />} />
+          <Route path="/Code" element={<Code />} />
+          <Route path="/Other" element={<Other />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 };
 
 export default Main;
