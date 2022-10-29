@@ -9,7 +9,7 @@ function App() {
   return (
     <page>
     <Header></Header>
-    <Main></Main>
+    <Main>hello</Main>
     <Footer></Footer>
     </page>
   );
