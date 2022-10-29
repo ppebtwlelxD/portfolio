@@ -1,8 +1,11 @@
+import { render } from "@testing-library/react";
 import React from "react";
 
 const Svg = (colur) => {
 
-   
+render(
+    console.log(colur)
+)   
     return (
         <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="15.8685" cy="15.3278" r="15" fill={colur}/>

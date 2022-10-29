@@ -2,6 +2,7 @@ footer{
     border-top: 1px solid #DADADA;
     background-color: #252525;
     padding: 0px;
+    position: absolute;
     bottom:0;
     width:100%;
     color: white;
