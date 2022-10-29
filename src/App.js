@@ -7,11 +7,11 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <page>
     <Header></Header>
     <Main></Main>
     <Footer></Footer>
-    </div>
+    </page>
   );
 }
 
