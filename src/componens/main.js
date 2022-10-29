@@ -9,7 +9,7 @@ class Main extends React.Component {
   ) {
     return (
       <main>
-        <Svg colur="#FFF4BF" />
+        <Svg colur="#FFF4BF"/>
       </main>
     );
   }
