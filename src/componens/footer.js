@@ -11,7 +11,7 @@ class Footer extends React.Component {
       <footer>
         <div className="socals"></div>
         <div className="links">
-          <a href="https://portfolioandretest.netlify.app/"></a>
+          <a href="https://portfolioandretest.netlify.app/">ass</a>
         </div>
         <div id="contact">
           <h3>Contact</h3>
