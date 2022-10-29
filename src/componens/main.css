@@ -1,1 +1,34 @@
-main{color: red;}
+html{
+    background: #1D1D1D;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  p{
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+  }
+  
+  h1, h2 {
+    color: white;
+    font-family: Helvetica;
+    display: block;
+  
+  }
+  
+  a{
+    color: #DADADA;
+  }
+  
+  a:hover, a:active {
+    color: #acacac;
+  }
+  
+  h2::first-letter {
+     color: #FFF4BF;
+  }
+  h1::first-letter {
+     color: #FFF4BF;
+  }
