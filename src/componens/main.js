@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./buttons.css";
+import "./content.css";
 import Other from "./other.js";
 import Design from "./design.js";
 import Code from "./code.js";
@@ -21,7 +22,11 @@ const Main = () => {
   return (
     <Router>
       <div>
-        <header></header>
+        <header>
+          <h1>Nico</h1>
+          <h1>Neubauer</h1>
+          <h2>Porfolio</h2>
+        </header>
         <div className="linkdiv">
           <Link onClick={handleClickDesign} className={content} to="/Design">
             Design

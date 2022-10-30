@@ -28,7 +28,9 @@ html{
   
   h2::first-letter {
      color: #FFF4BF;
+     display: inline-block;
   }
   h1::first-letter {
      color: #FFF4BF;
+     display: inline-block;;
   }

@@ -5,7 +5,7 @@ import Svg from "./svg.js";
 const Code = () => {
   return (
     <section>
-      <p>Code</p>;
+      <p>Code</p>
       <Svg colur="#92BEFF" />
     </section>
   );
