@@ -35,13 +35,6 @@ html{
     display: inline-block;
   }
 
- h1::first-letter {
-  color: #FFF4BF;
-}
- h2::first-letter {
-  color: #FFF4BF;
-}
-
 .code  h1::first-letter {
   color: #92BEFF;
 }
@@ -54,4 +47,11 @@ html{
 }
 .other  h2::first-letter {
   color: #DF8282;
+} 
+
+.design h1::first-letter {
+  color: #FFF4BF;
+}
+.design h2::first-letter {
+  color: #FFF4BF;
 }
