@@ -14,8 +14,7 @@ html{
   h1, h2 {
     color: white;
     font-family: Helvetica;
-    display: block;
-  
+    display: inline-block;
   }
   
   a{
@@ -26,11 +25,31 @@ html{
     color: #acacac;
   }
   
-  h2::first-letter {
-     color: #FFF4BF;
-     display: inline-block;
+  .linkdiv{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
   }
-  h1::first-letter {
-     color: #FFF4BF;
-     display: inline-block;
-  }
+
+  header {display: inline-block;}
+
+ h1::first-letter {
+  color: #FFF4BF;
+}
+ h2::first-letter {
+  color: #FFF4BF;
+}
+
+.code  h1::first-letter {
+  color: #92BEFF;
+}
+.code  h2::first-letter {
+  color: #92BEFF;
+}
+
+.other  h1::first-letter {
+  color: #DF8282;
+}
+.other  h2::first-letter {
+  color: #DF8282;
+}

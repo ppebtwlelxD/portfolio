@@ -22,7 +22,7 @@ const Main = () => {
   return (
     <Router>
       <div>
-        <header>
+        <header className={content}>
           <h1>Nico</h1>
           <h1>Neubauer</h1>
           <h2>Porfolio</h2>
