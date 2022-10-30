@@ -1,5 +1,6 @@
 import React from "react";
 import "./content.css";
+import Svg from "./svg.js";
 
 const Design = () => {
   return (
