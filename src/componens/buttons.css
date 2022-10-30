@@ -18,19 +18,20 @@
     background-color: #1D1D1D; 
     color: #DADADA; 
     border: 1px solid #DADADA; 
-  }
+  } 
+  
   .linkdiv .design {
-    background-color: #92BEFF;
+    background-color: #FFF4BF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
 
   .linkdiv .code {
-    background-color: #FFF4BF;
+    background-color: #92BEFF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
-  
+
   .linkdiv .other {
     background-color: #DF8282;
     color: #1D1D1D;

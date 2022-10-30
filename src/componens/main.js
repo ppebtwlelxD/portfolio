@@ -21,20 +21,19 @@ const Main = () => {
   return (
     <Router>
       <div>
-        
         <div className="linkdiv">
-        <Link onClick={handleClickDesign} className={content} to="/">
-          Design
-        </Link>
-        <Link onClick={handleClickCode} className={content} to="/Code">
-          Code
-        </Link>
-        <Link onClick={handleClickOther} className={content} to="/Other">
-          Other
-        </Link>
+          <Link onClick={handleClickDesign} className={content} to="/Design">
+            Design
+          </Link>
+          <Link onClick={handleClickCode} className={content} to="/Code">
+            Code
+          </Link>
+          <Link onClick={handleClickOther} className={content} to="/Other">
+            Other
+          </Link>
         </div>
         <Routes>
-          <Route path="/" element={<Design />} />
+          <Route path="/Design" element={<Design />} />
           <Route path="/Code" element={<Code />} />
           <Route path="/Other" element={<Other />} />
         </Routes>

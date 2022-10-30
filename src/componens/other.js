@@ -1,12 +1,12 @@
 import React from "react";
 import "./content.css";
 
-
-const Other = () => { 
-  
+const Other = () => {
   return (
-<p>Other</p>
+    <section>
+      <p>Other</p>
+      <Svg coluer="#DF8282" />
+    </section>
   );
-
-}
+};
 export default Other;

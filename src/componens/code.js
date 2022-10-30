@@ -1,12 +1,12 @@
 import React from "react";
 import "./content.css";
 
-
-const Code = () => { 
-  
+const Code = () => {
   return (
-<p>Code</p>
+    <section>
+      <p>Code</p>;
+      <Svg coluer="#92BEFF" />
+    </section>
   );
-
-}
+};
 export default Code;
