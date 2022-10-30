@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import Svg from "./svg.js";
 
 const Footer = () => {
   return (
