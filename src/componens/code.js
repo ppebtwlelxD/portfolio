@@ -6,7 +6,7 @@ const Code = () => {
   return (
     <section>
       <p>Code</p>;
-      <Svg coluer="#92BEFF" />
+      <Svg colur="#92BEFF" />
     </section>
   );
 };

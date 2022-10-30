@@ -21,6 +21,7 @@ const Main = () => {
   return (
     <Router>
       <div>
+        <header></header>
         <div className="linkdiv">
           <Link onClick={handleClickDesign} className={content} to="/Design">
             Design
