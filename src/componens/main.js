@@ -26,7 +26,6 @@ const Main = () => {
       setbutton({ design: false, code: false, other: true, content: "other" });
     }
   };
-  console.log(button);
   return (
     <div>
       <header>
