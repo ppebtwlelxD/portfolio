@@ -1,4 +1,4 @@
-.linkdiv a {
+button {
     background-color: #92BEFF; /* Green */
     border: none;
     padding: 16px 32px;
@@ -14,7 +14,7 @@
     border: 1px solid #1D1D1D; 
   }
   
-  .linkdiv a:hover {
+  .button:hover {
     background-color: #1D1D1D; 
     color: #DADADA; 
     border: 1px solid #DADADA; 
@@ -23,19 +23,19 @@
 
 
 
-  .linkdiv a {
+  button {
     background-color: #FFF4BF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
 
-  .linkdiv .code {
+  button.code {
     background-color: #92BEFF;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
 
-  .linkdiv .other {
+  button.other {
     background-color: #DF8282;
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
