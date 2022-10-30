@@ -28,7 +28,7 @@ const Main = () => {
           <h2>Porfolio</h2>
         </header>
         <div className="linkdiv">
-          <Link onClick={handleClickDesign} className={content} to="/Design">
+          <Link onClick={handleClickDesign} className={content} to="/">
             Design
           </Link>
           <Link onClick={handleClickCode} className={content} to="/Code">
@@ -39,7 +39,7 @@ const Main = () => {
           </Link>
         </div>
         <Routes>
-          <Route path="/Design" element={<Design />} />
+          <Route path="/" element={<Design />} />
           <Route path="/Code" element={<Code />} />
           <Route path="/Other" element={<Other />} />
         </Routes>
