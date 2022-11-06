@@ -27,7 +27,7 @@ const Main = () => {
     }
   };
   return (
-    <div>
+    <>
       <header>
         <div id="name" className={button.content}>
           <h1>Nico</h1>
@@ -51,7 +51,7 @@ const Main = () => {
         {button.code ? <Code /> : <></>}
         {button.other ? <Other /> : <></>}
       </div>
-    </div>
+    </>
   );
 };
 
