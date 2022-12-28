@@ -40,3 +40,9 @@ button {
     color: #1D1D1D;
     border: 1px solid #1D1D1D; 
   }
+
+  button.abuteMe {
+    background-color: white;
+    color: #1D1D1D;
+    border: 1px solid #1D1D1D; 
+  }

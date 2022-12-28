@@ -15,6 +15,7 @@ html{
     color: white;
     font-family: Helvetica;
     display: inline-block;
+    padding-left: 10px;
   }
   
   a{
@@ -54,4 +55,11 @@ html{
 }
 .design h2::first-letter {
   color: #FFF4BF;
+}
+
+.abuteMe h1::first-letter {
+  color: white;
+}
+.abuteMe h2::first-letter {
+  color: white;
 }
