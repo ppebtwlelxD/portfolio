@@ -6,8 +6,6 @@ import "./other.css";
 const Other = () => {
   return (
     <section>
-      
-      <Svg colur="#DF8282" />
 
       <h2 className="head2">Other</h2>
       
@@ -18,7 +16,7 @@ const Other = () => {
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. Duis aute irure 
       </p>
-      
+
       <div className="imgcon1">
         <img src="img\other\by_portrett.jpg" alt="" />
         <img src="img\other\marin_lys.png" alt="" />
