@@ -43,8 +43,9 @@ const AbuteMe = () => {
         </article>
         <div className="mySkills">
           <h2>My skills include </h2>
-          <p>e-mail: niconeubauer.me@gmail.com</p>
-          <p> tlf: 0047 98187978</p>
+          <div className="info">
+            e-mail: niconeubauer.me@gmail.com tlf: 0047 98187978
+          </div>
           <div className="iconBox">
             <img src="img/abuteMe/aiIcon.png" alt="" />
             <img src="img/abuteMe/idIcon.png" alt="" />
@@ -62,16 +63,16 @@ const AbuteMe = () => {
         <div className="form">
           <h2>Send me a message</h2>
           <form>
-            <label for="fname">First name:</label>
+            <input type="text" id="email" name="email" placeholder="e-mail" />
             <br />
-            <input type="text" id="fname" name="fname" value="John" />
-            <br />
-            <label for="lname">Last name:</label>
-            <br />
-            <input type="text" id="lname" name="lname" value="Doe" />
-            <br />
-            <br />
-            <input type="submit" value="Submit" />
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Your message for me"
+            />
+
+            <input type="submit" id="submit" value="Submit" />
           </form>
         </div>
       </section>

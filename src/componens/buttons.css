@@ -1,48 +1,46 @@
 button {
-    background-color: #92BEFF; /* Green */
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 16px;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    color: #1D1D1D;
-    border: 1px solid #1D1D1D; 
-  }
-  
-  .button:hover {
-    background-color: #1D1D1D; 
-    color: #DADADA; 
-    border: 1px solid #DADADA; 
-  } 
-  
+  background-color: #92beff; /* Green */
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 16px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
 
+.button:hover {
+  background-color: #1d1d1d;
+  color: #dadada;
+  border: 1px solid #dadada;
+}
 
+button {
+  margin: 0 20px;
+  background-color: #fff4bf;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
 
-  button {
-    background-color: #FFF4BF;
-    color: #1D1D1D;
-    border: 1px solid #1D1D1D; 
-  }
+button.code {
+  background-color: #92beff;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
 
-  button.code {
-    background-color: #92BEFF;
-    color: #1D1D1D;
-    border: 1px solid #1D1D1D; 
-  }
+button.other {
+  background-color: #df8282;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
 
-  button.other {
-    background-color: #DF8282;
-    color: #1D1D1D;
-    border: 1px solid #1D1D1D; 
-  }
-
-  button.abuteMe {
-    background-color: white;
-    color: #1D1D1D;
-    border: 1px solid #1D1D1D; 
-  }
+button.abuteMe {
+  background-color: white;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}

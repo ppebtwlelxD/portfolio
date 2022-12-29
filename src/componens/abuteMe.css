@@ -2,27 +2,104 @@
   background-image: url("/public/img/abuteMe/backround.png");
   background-size: cover;
   width: 100%;
-  height: 2803px;
+  height: 2703px;
   position: absolute;
   margin-top: -179.875px;
   z-index: -1;
 }
+section {
+  margin: 0 100px;
+}
 .titel {
-  padding-top: 100px;
-  padding-left: 100px;
+  padding-left: 50px;
   font-size: 4em;
   font-weight: 10;
 }
 
-article {
-  padding: 0 100px;
-}
-
 article > div {
   display: inline-block;
-  width: 40%;
+  width: 50%;
 }
 .left > img {
   width: 500px;
   height: 500px;
+}
+.right > p {
+  margin: 0;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.right {
+  margin-bottom: 200px;
+}
+
+.mySkills {
+  border-radius: 22px;
+  background-color: #1d1d1d;
+  height: 500px;
+  display: block;
+  position: relative;
+}
+
+.mySkills > h2 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  width: 270px;
+}
+.iconBox {
+  padding-top: 30px;
+}
+
+.iconBox > img {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.form {
+  margin: 200px 0;
+  width: 80%;
+  height: 480px;
+  border-radius: 25px;
+  border: 1px solid white;
+  padding: 0 40px;
+  position: relative;
+}
+
+.form > h2 {
+  font-size: 2em;
+  font-weight: 10;
+}
+#email {
+  width: 50%;
+  height: 2em;
+  margin-bottom: 20px;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+}
+
+#message {
+  width: 80%;
+  height: 233px;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+}
+
+#submit {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  background-color: #7e8596;
+  border: 1px solid black;
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  color: white;
 }
