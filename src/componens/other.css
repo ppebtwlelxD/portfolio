@@ -1,20 +1,45 @@
-.head2::first-letter{ color: white !important;}
-.head2{color: blue;}
+
+
+
+p{
+ color: #E9E9E9;
+ width: 25%;
+ padding:0 10%;
+}
+
+
+
+.head2{
+    color: #DF8282;
+    font-size: 4em;
+    padding:0 5%;
+
+}
+
+.head2::first-letter{ 
+    color: #E9E9E9 
+    !important;}
+
+h3{
+    color: #E9E9E9;
+    padding:0 10%;
+    font-size: 2em;
+}
 
 
 .imgcon1>img{
- height: 200px;
- width: auto;
+ height: auto;
+ width: 29%;
+ margin: 3% 10%;
+ border: 1px white solid;
+ border-radius: 10px;
 }
-
-.imgcon1>{
- color: white;
-}
-   
-
 
 
 .vidcon1>iframe{
-    height: 200px;
-    width: auto;
-}
+    height: 400px;
+    width: 29%;
+    margin: 3% 10%;
+    border: 1px white solid;
+    border-radius: 10px;
+   }
