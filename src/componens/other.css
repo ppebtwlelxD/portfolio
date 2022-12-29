@@ -1,0 +1,20 @@
+.head2::first-letter{ color: white !important;}
+.head2{color: blue;}
+
+
+.imgcon1>img{
+ height: 200px;
+ width: auto;
+}
+
+.imgcon1>{
+ color: white;
+}
+   
+
+
+
+.vidcon1>iframe{
+    height: 200px;
+    width: auto;
+}
