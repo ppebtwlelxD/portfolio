@@ -18,7 +18,7 @@ const Other = () => {
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. Duis aute irure 
       </p>
-npp
+      
       <div className="imgcon1">
         <img src="img\other\by_portrett.jpg" alt="" />
         <img src="img\other\marin_lys.png" alt="" />
