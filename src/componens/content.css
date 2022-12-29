@@ -1,60 +1,66 @@
-html{
-    background: #1D1D1D;
-  }
-  
-  body{
-    margin: 0;
-  }
-  
-  p{
-    margin-block-start: 1px;
-    margin-block-end: 1px;
-  }
-  
-  h1, h2 {
-    color: white;
-    font-family: Helvetica;
-    display: inline-block;
-    padding-left: 10px;
-  }
-  
-  a{
-    color: #DADADA;
-  }
-  
-  a:hover, a:active {
-    color: #acacac;
-  }
-  
-  .buttondiv{
-    display: inline-block;
-    float: right;
-    padding-right: 20px;
-  }
-
-  #name {
-    display: inline-block;
-  }
-
-.code  h1::first-letter {
-  color: #92BEFF;
-}
-.code  h2::first-letter {
-  color: #92BEFF;
+html {
+  background: #1d1d1d;
 }
 
-.other  h1::first-letter {
-  color: #DF8282;
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
-.other  h2::first-letter {
-  color: #DF8282;
-} 
+
+header {
+  margin: 50px;
+}
+p {
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: Helvetica;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+a {
+  color: #dadada;
+}
+
+a:hover,
+a:active {
+  color: #acacac;
+}
+
+.buttondiv {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+}
+
+#name {
+  display: inline-block;
+}
+
+.code h1::first-letter {
+  color: #92beff;
+}
+.code h2::first-letter {
+  color: #92beff;
+}
+
+.other h1::first-letter {
+  color: #df8282;
+}
+.other h2::first-letter {
+  color: #df8282;
+}
 
 .design h1::first-letter {
-  color: #FFF4BF;
+  color: #fff4bf;
 }
 .design h2::first-letter {
-  color: #FFF4BF;
+  color: #fff4bf;
 }
 
 .abuteMe h1::first-letter {
