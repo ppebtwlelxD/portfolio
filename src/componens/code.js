@@ -11,6 +11,7 @@ function Code() {
         className="abutton"
         href="https://github.com/NicoNeubauer"
         target="_blank"
+        rel="noreferrer"
       >
         Github
       </a>
@@ -45,7 +46,9 @@ function Code() {
       <div>
         <h3>React web project 3</h3>
         <p>
-          <b>“Can we make education easier with a single solution as a website?”</b>
+          <b>
+            “Can we make education easier with a single solution as a website?”
+          </b>
           This projects focus was to create a digital platform to make it easier
           for students and teachers/professors to find information about
           mobility and education abroad. There is good reason to think that
@@ -77,10 +80,9 @@ function Code() {
       <div>
         <h3>PHP Database-4</h3>
         <p>
-        Dette prosjektet tar evg filer som input og bruker 
-        php til å lage nye filer brukeren kan spesifisere. 
-        Den viser data på forskjellige måter og kan sette 
-        sammen flere forskjellige filer samtidig.  
+          Dette prosjektet tar evg filer som input og bruker php til å lage nye
+          filer brukeren kan spesifisere. Den viser data på forskjellige måter
+          og kan sette sammen flere forskjellige filer samtidig.
         </p>
         <div className="imgsingel">
           <img alt="test-img" src="img\code\code.PNG" />
@@ -96,12 +98,11 @@ function Code() {
       <div>
         <h3>Javascript Web Coding</h3>
         <p>
-        javaScript er et høynivå-programmeringsspråk. Sammen 
-        med HTML og CSS er det en av grunnsteinene i moderne
-         web-utvikling, og alle moderne nettlesere kan kjøre 
-         JavaScript-programmer uten utvidelser. Språket kan 
-         brukes både til komplekse webapplikasjoner og som 
-         et enklere skriptspråk. 
+          javaScript er et høynivå-programmeringsspråk. Sammen med HTML og CSS
+          er det en av grunnsteinene i moderne web-utvikling, og alle moderne
+          nettlesere kan kjøre JavaScript-programmer uten utvidelser. Språket
+          kan brukes både til komplekse webapplikasjoner og som et enklere
+          skriptspråk.
         </p>
         <div className="imgsingel">
           <img alt="test-img" src="img\code\code.PNG" />
