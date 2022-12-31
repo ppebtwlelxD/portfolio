@@ -5,7 +5,7 @@ const AbuteMe = () => {
     <>
       <div className="abuteMeB" />
       <section className="abuteMe">
-        <h2 className="titel">Abute Me</h2>
+        <h2 className="titel">About Me</h2>
         <article>
           <div className="right">
             <p>
@@ -38,14 +38,16 @@ const AbuteMe = () => {
             </p>
           </div>
           <div className="left">
-            <img src="img/abuteMe/meg.png" alt="" />
-          </div>
+            <img src="img/abuteMe/meg.png" alt=""/>          
+            <p className="info">
+            E-mail: niconeubauer.me@gmail.com Tlf: 0047 98187978
+          </p>
+          </div>          
+
         </article>
         <div className="mySkills">
           <h2>My skills include </h2>
-          <div className="info">
-            e-mail: niconeubauer.me@gmail.com tlf: 0047 98187978
-          </div>
+
           <div className="iconBox">
             <img src="img/abuteMe/aiIcon.png" alt="" />
             <img src="img/abuteMe/idIcon.png" alt="" />
@@ -59,21 +61,6 @@ const AbuteMe = () => {
             <img src="img/abuteMe/jsIcon.png" alt="" />
             <img src="img/abuteMe/reactIcon.png" alt="" />
           </div>
-        </div>
-        <div className="form">
-          <h2>Send me a message</h2>
-          <form>
-            <input type="text" id="email" name="email" placeholder="e-mail" />
-            <br />
-            <textarea
-              type="text"
-              id="message"
-              name="message"
-              placeholder="Your message for me"
-            />
-
-            <input type="submit" id="submit" value="Submit" />
-          </form>
         </div>
       </section>
     </>

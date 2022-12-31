@@ -139,9 +139,7 @@ const Main = () => {
           </a>
         </div>
         <div className="abuteMeFooter">
-          <button id="abuteMe" className={button.content} onClick={handleClick}>
-            Abute Me
-          </button>
+  
           <a href="/img/footer/CV_NicoNeubauer.pdf" download>
             <img src="img/footer/cv.png" alt="" />
           </a>
@@ -149,8 +147,10 @@ const Main = () => {
             <img src="img/footer/github.png" alt="" />
           </a>
         </div>
-
-        <p className="madeBy">Made by Nico N. whit react</p>
+        <button id="abuteMe" className={button.content} onClick={handleClick}>
+        About me          
+        </button>
+        <p className="madeBy">Made by Nico with React</p>
       </footer>
     </>
   );

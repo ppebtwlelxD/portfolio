@@ -1,11 +1,7 @@
 .abuteMeB {
   background-image: url("/public/img/abuteMe/backround.png");
   background-size: cover;
-  width: 100%;
-  height: 3080px;
-  position: absolute;
-  margin-top: -220px;
-  z-index: -1;
+
 }
 section {
   margin: 0 100px;
@@ -20,10 +16,18 @@ article > div {
   display: inline-block;
   width: 50%;
 }
+
+.left{
+}
+
 .left > img {
   width: 500px;
   height: 500px;
 }
+
+
+
+
 .right > p {
   margin: 0;
   width: 60%;
@@ -47,11 +51,10 @@ article > div {
   padding-left: 50px;
 }
 .info {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   color: white;
   width: 270px;
+  padding-left: 0;
+  line-height: 1.7em;
 }
 .iconBox {
   padding-top: 30px;
@@ -104,6 +107,3 @@ article > div {
   color: white;
 }
 
-footer {
-  height: 240px;
-}

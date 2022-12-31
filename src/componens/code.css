@@ -33,16 +33,16 @@ h3 {
 
 .imgsingel {
   display: inline-block;
-  width: 43%;
-  margin: 3%;
+  width: 29%;
+  margin: 3% 10%;
   border: 1px white solid;
   border-radius: 10px;
 }
 
 .grid4by4 {
   display: inline-block;
-  width: 43%;
-  margin: 3%;
+  width: 29%;
+  margin: 3% 10%;
   border: 1px white solid;
   border-radius: 10px;
 }
