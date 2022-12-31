@@ -139,9 +139,9 @@ const Main = () => {
           </a>
         </div>
         <div className="abuteMeFooter">
-          <h3 id="abuteMe" className={button.content} onClick={handleClick}>
+          <button id="abuteMe" className={button.content} onClick={handleClick}>
             Abute Me
-          </h3>
+          </button>
           <a href="/img/footer/CV_NicoNeubauer.pdf" download>
             <img src="img/footer/cv.png" alt="" />
           </a>
