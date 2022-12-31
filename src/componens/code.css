@@ -20,33 +20,42 @@ h3 {
   font-size: 2em;
 }
 
-.head3{
-    color: #92beff;
-    font-size: 4em;
-    padding:0 5%;
+.head3 {
+  color: #92beff;
+  font-size: 4em;
+  padding: 0 5%;
 }
 
-.abutton{
-    display: block;
-    width: fit-content;
+.abutton {
+  display: block;
+  width: fit-content;
 }
 
-.imgsingel{
-    height: auto;
-    width: 29%;
-    margin: 3% 10%;
-    border: 1px white solid;
-    border-radius: 10px;
+.imgsingel {
+  display: inline-block;
+  width: 40%;
+  margin: 3%;
+  border: 1px white solid;
+  border-radius: 10px;
 }
 
-.grid4by4{
-    margin: 3% 10%;
-    border: 1px white solid;
-    border-radius: 10px;
+.grid4by4 {
+  display: inline-block;
+  width: 40%;
+  margin: 3%;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+img {
+  width: 50%;
+  height: auto;
 }
 
-.head3::first-letter{ 
-    color: #E9E9E9 
-    !important;
+.imgsingel > img {
+  width: 100%;
+  height: auto;
 }
 
+.head3::first-letter {
+  color: #e9e9e9 !important;
+}
