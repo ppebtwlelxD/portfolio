@@ -125,16 +125,16 @@ const Main = () => {
       <footer>
         <div className="contact">
           <h3>Contact</h3>
-          <a>
+          <a href="https://discordapp.com/users/Shabdadhab#7445">
             <img src="img/footer/discord.png" alt="" />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/nico-neubauer-57bb49233/ ">
             <img src="img/footer/linktin.png" alt="" />
           </a>
-          <a>
+          <a href="mailto:niconeubauer.me@gmail.com">
             <img src="img/footer/email.png" alt="" />
           </a>
-          <a>
+          <a href="tel:98187978">
             <img src="img/footer/call.png" alt="" />
           </a>
         </div>
@@ -142,13 +142,10 @@ const Main = () => {
           <h3 id="abuteMe" className={button.content} onClick={handleClick}>
             Abute Me
           </h3>
-          <a>
+          <a href="/img/footer/CV_NicoNeubauer.pdf" download>
             <img src="img/footer/cv.png" alt="" />
           </a>
-          <a>
-            <img src="img/footer/user.png" alt="" />
-          </a>
-          <a>
+          <a href="https://github.com/NicoNeubauer">
             <img src="img/footer/github.png" alt="" />
           </a>
         </div>
