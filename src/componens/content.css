@@ -8,14 +8,14 @@ body {
 }
 
 header {
-  margin:50px 100px;
+  margin: 50px 100px;
 }
 p {
   margin-block-start: 1px;
   margin-block-end: 1px;
 }
 
-h1{
+h1 {
   font-size: 3em;
 }
 
@@ -40,6 +40,14 @@ a:active {
   float: right;
   padding-right: 20px;
   padding-top: 1.67em;
+}
+
+.buttondivbottom {
+  margin-left: 25%;
+}
+
+.buttondivbottom > button {
+  margin: 10%;
 }
 
 #name {
