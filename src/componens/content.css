@@ -8,17 +8,20 @@ body {
 }
 
 header {
-  margin: 50px;
+  margin:50px 100px;
 }
 p {
   margin-block-start: 1px;
   margin-block-end: 1px;
 }
 
+h1{
+  font-size: 3em;
+}
+
 h1,
 h2 {
   color: white;
-  font-family: Helvetica;
   display: inline-block;
   padding-left: 10px;
 }
@@ -36,6 +39,7 @@ a:active {
   display: inline-block;
   float: right;
   padding-right: 20px;
+  padding-top: 1.67em;
 }
 
 #name {

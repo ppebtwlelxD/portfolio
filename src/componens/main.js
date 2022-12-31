@@ -66,22 +66,24 @@ const Main = () => {
         </div>
         <div className="buttondiv">
           <button id="design" className={button.content} onClick={handleClick}>
-            design
+            Design
           </button>
           <button id="code" className={button.content} onClick={handleClick}>
-            code
+            Code
           </button>
           <button id="other" className={button.content} onClick={handleClick}>
-            other
+            Other
           </button>
         </div>
       </header>
+      
       <div className="conditional-render-section">
         {button.design ? <Design /> : <></>}
         {button.code ? <Code /> : <></>}
         {button.other ? <Other /> : <></>}
         {button.abuteMe ? <AbuteMe /> : <></>}
       </div>
+
       <footer>
         <div className="socals"></div>
         <div className="links"></div>
