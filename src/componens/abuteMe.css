@@ -32,8 +32,9 @@ article > div {
 }
 
 .mySkills {
+  margin-bottom: 10%;
   border-radius: 22px;
-  background-color: #1d1d1d;
+  background-color: gray;
   height: 500px;
   display: block;
   position: relative;
