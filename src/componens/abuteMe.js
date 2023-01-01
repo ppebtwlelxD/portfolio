@@ -9,41 +9,39 @@ const AbuteMe = () => {
         <article>
           <div className="right">
             <p>
-              I am a German citizen that has lived in Norway for most of my
-              life. This is the reason for me speaking and writing Norwegian,
-              English, and German at a fluent level. In my spare time, I would
-              like to say I am an active person that likes to work out, play
-              games, and keep myself occupied with smaller projects.
+              Jeg er en tysk statsborger som har bodd mesteparten av livet mitt
+              i Norge. På fritiden er jeg en aktiv person som liker å trene,
+              spille dataspill og er alltid opptatt med forskjellige prosjekter
+              som å designe nettsider og lære språk.
             </p>
             <p>
-              Already in middle school, I discovered my interests in design and
-              web development. That is why I choose media and communication in
-              my high school years. Here I started to learn the basics of media
-              creation and some more complex topics like the composition of
-              visual media.
+              Allerede på ungdomsskolen fant jeg fort interessen for å jobbe med
+              design og webutvikling, og valgte derfor å gå videre med dette med
+              Medier og kommunikasjon på videregående skole. Dette tok jeg et
+              steg videre når jeg valgte å ta en Bachelor i Webutvikling ved
+              NTNU.
             </p>
             <p>
-              I have solid knowledge of the fundamental building blocks of the
-              web including HTML, CSS, and javascript. In addition to that, I am
-              experienced in working with programs like Figma, InDesign,
-              Photoshop, and most other programs from the Adobe package.
+              Jeg har solid kjennskap til byggesteinene i webutvikling, her
+              referer jeg til HTML, CSS og JavaScript. I tillegg har jeg også
+              god erfaring m ed programvare som Figma, InDesign, Photoshop og
+              diverse annet fra Adobe pakken.
             </p>
+
             <p>
-              The Web development bachelor I have from NTNU(Norwegian University
-              of Science and Technology) was mostly focused on Interaction
-              design, with courses like Web Design, Color in Interface Design,
-              and Design Methods and Usability. There was also a large focus on
-              working with user testing in both qualitative and quantitative
-              methods.
+              Webutviklings studiet jeg tok ved NTNU gikk for det meste ut på
+              interaksjonsdesign, med fag som Web Design, Color in Interface
+              Design og Design Methods and Usability. I disse fagene var det
+              stort fokus på brukertesting, kvantitative og kvalitative
+              undersøkelser.
             </p>
           </div>
           <div className="left">
-            <img src="img/abuteMe/meg.png" alt=""/>          
+            <img src="img\abuteMe\IMG_0260.jpg" alt="" />
             <p className="info">
-            E-mail: niconeubauer.me@gmail.com Tlf: 0047 98187978
-          </p>
-          </div>          
-
+              E-mail: niconeubauer.me@gmail.com Tlf: 0047 98187978
+            </p>
+          </div>
         </article>
         <div className="mySkills">
           <h2>My skills include </h2>

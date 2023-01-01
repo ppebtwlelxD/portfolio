@@ -16,12 +16,12 @@ const Other = () => {
       </p>
 
       <div className="imgcon1">
-        <img src="img\other\by_portrett.jpg" alt="" />
+        <img src="img\other\KoreaGasse3.JPG" alt="" />
         <img src="img\other\marin_lys.png" alt="" />
       </div>
 
       <div className="imgcon1">
-        <img src="img\other\marin_lys.png" alt="" />
+        <img src="img\other\martin_grønn_øye.jpg" alt="" />
         <img src="img\other\flammer.jpg" alt="" />
       </div>
 

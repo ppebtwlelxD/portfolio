@@ -62,7 +62,7 @@ const Main = () => {
         <div id="name" className={button.content}>
           <h1>Nico</h1>
           <h1>Neubauer</h1>
-          <h2>Porfolio</h2>
+          <h2>Portfolio</h2>
         </div>
         <div className="buttondiv">
           <button id="design" className={button.content} onClick={handleClick}>
