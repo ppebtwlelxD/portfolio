@@ -83,44 +83,49 @@ const Main = () => {
         {button.other ? <Other /> : <></>}
         {button.abuteMe ? <AbuteMe /> : <></>}
       </div>
-      <div className="buttondivbottom">
-        {button.design ? (
-          <></>
-        ) : (
-          <button
-            style={{ backgroundColor: "#fff4bf" }}
-            id="design"
-            className={button.content}
-            onClick={handleClick}
-          >
-            Design
-          </button>
-        )}
-        {button.code ? (
-          <></>
-        ) : (
-          <button
-            style={{ backgroundColor: "#92beff" }}
-            id="code"
-            className={button.content}
-            onClick={handleClick}
-          >
-            Code
-          </button>
-        )}
-        {button.other ? (
-          <></>
-        ) : (
-          <button
-            style={{ backgroundColor: "#DF8282" }}
-            id="other"
-            className={button.content}
-            onClick={handleClick}
-          >
-            Other
-          </button>
-        )}
-      </div>
+
+      {button.abuteMe ? (
+        <></>
+      ) : (
+        <div className="buttondivbottom">
+          {button.design ? (
+            <></>
+          ) : (
+            <button
+              style={{ backgroundColor: "#fff4bf" }}
+              id="design"
+              className={button.content}
+              onClick={handleClick}
+            >
+              Design
+            </button>
+          )}
+          {button.code ? (
+            <></>
+          ) : (
+            <button
+              style={{ backgroundColor: "#92beff" }}
+              id="code"
+              className={button.content}
+              onClick={handleClick}
+            >
+              Code
+            </button>
+          )}
+          {button.other ? (
+            <></>
+          ) : (
+            <button
+              style={{ backgroundColor: "#DF8282" }}
+              id="other"
+              className={button.content}
+              onClick={handleClick}
+            >
+              Other
+            </button>
+          )}
+        </div>
+      )}
 
       <footer>
         <div className="contact">
@@ -139,7 +144,6 @@ const Main = () => {
           </a>
         </div>
         <div className="abuteMeFooter">
-  
           <a href="/img/footer/CV_NicoNeubauer.pdf" download>
             <img src="img/footer/cv.png" alt="" />
           </a>
