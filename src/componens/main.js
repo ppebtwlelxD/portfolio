@@ -148,7 +148,7 @@ const Main = () => {
           </a>
         </div>
         <button id="abuteMe" className={button.content} onClick={handleClick}>
-        About me          
+        Om meg          
         </button>
         <p className="madeBy">Made by Nico with React</p>
       </footer>

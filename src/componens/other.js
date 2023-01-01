@@ -9,10 +9,10 @@ const Other = () => {
 
       <h3>Photo</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+        Jeg har erfaring i foto både fra å ha det som hobby men også fra
+        profesjonelt photostudio hvor jeg har gått i dybden på rigge lys og
+        hvordan man setter på et bra bildet. Jeg har også noen erfaring i
+        digital bilderedigering i blant annet adobe photoshop.
       </p>
 
       <div className="imgcon1">

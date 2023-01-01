@@ -5,7 +5,7 @@ const AbuteMe = () => {
     <>
       <div className="abuteMeB" />
       <section className="abuteMe">
-        <h2 className="titel">About Me</h2>
+        <h2 className="titel">Om meg</h2>
         <article>
           <div className="right">
             <p>
@@ -44,18 +44,18 @@ const AbuteMe = () => {
           </div>
         </article>
         <div className="mySkills">
-          <h2>My skills include </h2>
+          <h2>Programmer jeg kan</h2>
 
           <div className="iconBox">
-            <img src="img/abuteMe/aiIcon.png" alt="" />
+            <img src="img\abuteMe\Adobe_Illustrator_CC_icon.svg.png" alt="" />
             <img src="img/abuteMe/idIcon.png" alt="" />
             <img src="img/abuteMe/xdIcon.png" alt="" />
             <img src="img/abuteMe/lrIcon.png" alt="" />
-            <img src="img/abuteMe/psIcon.png" alt="" />
+            <img src="img\abuteMe\Adobe_Photoshop_CC_icon.svg.png" alt="" />
             <img src="img/abuteMe/prIcon.png" alt="" />
-            <img src="img/abuteMe/figmaIcon.png" alt="" />
+            <img src="img\abuteMe\figmalogo.png" alt="" />
             <img src="img/abuteMe/htmlIcon.png" alt="" />
-            <img src="img/abuteMe/cssIcon.png" alt="" />
+            <img src="img\abuteMe\cssimg.png" alt="" />
             <img src="img/abuteMe/jsIcon.png" alt="" />
             <img src="img/abuteMe/reactIcon.png" alt="" />
           </div>

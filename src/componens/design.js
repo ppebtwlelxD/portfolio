@@ -30,7 +30,7 @@ const Design = () => {
           className="abutton"
           href="https://www.figma.com/file/ks542VO5FqXJ8knXNEBCK9/Reko2?t=WNH7qrtcoLZLh8Wz-1"
         >
-          vis i figma
+        Vis i figma
         </a>
         <div className="mobileShow">
           <img src="img\design\rekomobil1.png" alt="" />
@@ -114,7 +114,7 @@ const Design = () => {
           className="abutton"
           href="https://www.figma.com/file/2be3ae5SSYkcbOpEgAsWfK/Nico-Workout-Prototype?node-id=0%3A1&t=cbUq4DwCbkCbXW8T-1"
         >
-          vis i figma
+        Vis i figma
         </a>
         <div className="mobileShow">
           <img src="img\design\workonitmobil1.png" alt="" />
