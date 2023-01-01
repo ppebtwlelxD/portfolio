@@ -1,0 +1,120 @@
+.head2design {
+  color: #fff4bf;
+  font-size: 4em;
+  padding: 0 5%;
+}
+
+.head2design::first-letter {
+  color: #e9e9e9 !important;
+}
+
+.abutton {
+  display: block;
+  width: fit-content;
+  background-color: #fff4bf;
+  margin-top: 5%;
+  margin-left: 100px;
+}
+
+.projekt > p {
+  width: 600px;
+  padding-left: 110px;
+}
+.projekt > h3 {
+  padding-left: 110px;
+}
+
+.mobileShow {
+  width: auto;
+  padding-right: 42.1px;
+  border: 1px #fff4bf solid;
+  border-radius: 20px;
+  height: auto;
+  margin: 0 110px;
+  margin-bottom: 60px;
+}
+
+.mobileShow > img {
+  height: 519px;
+  width: auto;
+  margin: 42.1px 0 42.1px 42.1px;
+}
+
+.desktopShow {
+  width: auto;
+  padding-right: 42.1px;
+  border: 1px #fff4bf solid;
+  border-radius: 20px;
+  height: auto;
+  margin: 0 110px;
+  margin-bottom: 60px;
+}
+
+.desktopShow > img {
+  height: 449px;
+  width: auto;
+  margin: 42.1px 0 42.1px 42.1px;
+}
+
+.designManual {
+  width: auto;
+  padding-right: 42.1px;
+  border: 1px #fff4bf solid;
+  border-radius: 20px;
+  height: auto;
+  margin: 0 110px;
+  height: 600px;
+  margin-bottom: 150px;
+}
+
+.designManual div {
+  width: 339px;
+  height: 520px;
+  display: inline-table;
+  margin: 4.5%;
+  margin-top: 0;
+}
+
+.designManual > div > p {
+  display: inline-block;
+  width: 320px;
+  height: 270px;
+}
+
+.designManual > div > span {
+  position: absolute;
+  color: white;
+  top: 345px;
+  left: 60px;
+  font-size: 1.3em;
+}
+
+.designManual > .logoBruk > img {
+  height: 115px;
+  width: auto;
+  margin-left: 40px;
+}
+
+.designManual > .fargeBruk > img {
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+}
+
+.designManual > .fontbruk > img {
+  height: 150px;
+  width: auto;
+  margin-left: 60px;
+}
+
+.designManual > .fontbruk {
+  position: relative;
+}
+
+.workonitcolur {
+  height: 186px !important;
+}
+
+.workonitlogo {
+  margin-left: 120px !important;
+}
