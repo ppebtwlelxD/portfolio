@@ -30,7 +30,7 @@ const Design = () => {
           className="abutton"
           href="https://www.figma.com/file/ks542VO5FqXJ8knXNEBCK9/Reko2?t=WNH7qrtcoLZLh8Wz-1"
         >
-        Vis i figma
+          Vis i figma
         </a>
         <div className="mobileShow">
           <img src="img\design\rekomobil1.png" alt="" />
@@ -62,28 +62,23 @@ const Design = () => {
           <div className="fargeBruk">
             <h3>Fargebruk</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure{" "}
+              I den grafiske profilen av reko er gråfarger mest dominante med
+              reko grønn mest brukt som sigan farge på knapper og andre
+              handlinger. Dette er fordi reko grønnfargen har høy kontrast mot
+              de andre gråfargene som er brukt i den grafiske designen og derfor
+              skaper den en blikkfang Reko grønn er grønn farge som gjengår i
+              alle sider av reko og også i logen. Det er en farge som skal
+              signaliser den økologiske og vennlige naturen av reko.
             </p>
             <img src="img\design\rekocolur.png" alt="" />
           </div>
           <div className="fontbruk">
             <h3>Font</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure{" "}
+              Fronten som er brukt i den grafiske profilen av reko er heter
+              Roboto. Hvor Roboto regula blir brukt for brødtekst og bold kan
+              bli brukt for overskrifter og hoved knapper. Roboto blir brukes
+              for å gjøre at reko virker moderne og ryddig.
             </p>
             <span className="forntTitel">Roboto</span>
             <img src="img\design\rekofont.png" alt="" />
@@ -114,7 +109,7 @@ const Design = () => {
           className="abutton"
           href="https://www.figma.com/file/2be3ae5SSYkcbOpEgAsWfK/Nico-Workout-Prototype?node-id=0%3A1&t=cbUq4DwCbkCbXW8T-1"
         >
-        Vis i figma
+          Vis i figma
         </a>
         <div className="mobileShow">
           <img src="img\design\workonitmobil1.png" alt="" />
