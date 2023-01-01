@@ -124,6 +124,7 @@ const Main = () => {
               Other
             </button>
           )}
+          <div class="vl"></div>
         </div>
       )}
 
@@ -152,7 +153,7 @@ const Main = () => {
           </a>
         </div>
         <button id="abuteMe" className={button.content} onClick={handleClick}>
-        Om meg          
+          Om meg
         </button>
         <p className="madeBy">Made by Nico with React</p>
       </footer>

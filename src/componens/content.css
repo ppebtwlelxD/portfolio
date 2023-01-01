@@ -44,10 +44,19 @@ a:active {
 
 .buttondivbottom {
   margin-left: 28%;
+  position: relative;
 }
 
 .buttondivbottom > button {
   margin: 10%;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 400px;
+  position: absolute;
+  left: 28%;
+  top: 0;
 }
 
 #name {

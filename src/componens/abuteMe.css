@@ -9,6 +9,7 @@ section {
   padding-left: 50px;
   font-size: 4em;
   font-weight: 10;
+  padding-bottom: 0;
 }
 
 article > div {
@@ -16,9 +17,21 @@ article > div {
   width: 50%;
 }
 
+.left {
+  width: 400px;
+}
+
 .left > img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+}
+
+.left > p {
+  width: 280px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
 .right > p {
@@ -28,6 +41,8 @@ article > div {
 }
 
 .right {
+  width: 600px;
+  margin-right: 500px;
   margin-bottom: 200px;
 }
 
@@ -38,17 +53,19 @@ article > div {
   height: 500px;
   display: block;
   position: relative;
+  padding-left: 50px;
 }
 
 .mySkills > h2 {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 .info {
   color: white;
   width: 270px;
   padding-left: 0;
   line-height: 1.7em;
+  margin-left: 0;
 }
 .iconBox {
   padding-top: 30px;
