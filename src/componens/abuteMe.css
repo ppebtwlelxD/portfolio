@@ -1,7 +1,6 @@
 .abuteMeB {
   background-image: url("/public/img/abuteMe/backround.png");
   background-size: cover;
-
 }
 section {
   margin: 0 100px;
@@ -17,16 +16,10 @@ article > div {
   width: 50%;
 }
 
-.left{
-}
-
 .left > img {
   width: 500px;
   height: 500px;
 }
-
-
-
 
 .right > p {
   margin: 0;
@@ -106,4 +99,3 @@ article > div {
   width: 100px;
   color: white;
 }
-
