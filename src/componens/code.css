@@ -54,6 +54,7 @@ img {
 .imgsingel > img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .head3::first-letter {
