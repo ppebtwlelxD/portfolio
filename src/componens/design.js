@@ -47,11 +47,12 @@ const Design = () => {
           <div className="logoBruk">
             <h3>Logo</h3>
             <p>
-              I logo designet for dette prosjektet prøvde jeg å gjenspeile
-              nærheten til kunden som er så viktig for at reko systemet funker.
-              Dette gjorde jeg med bruk av organiske former og bruk av
-              signalfarger grønn. Enkelheten til denne logoen hjelper med å være
-              gjenkjennelig og lett å huske, og enkel å bruke i mange
+              I logo designet for dette prosjektet Gikk jeg med et asymmetrisk
+              og ikke sentrert design gjennom det prøvde jeg å gjenspeile
+              lekenhet og nærhet til kunden som er så viktig for at reko
+              systemet funker. Dette gjorde vi med bruk av organiske former og
+              bruk av signalfarger grønn. Enkelheten til denne logoen hjelper
+              med å være gjenkjennelig og lett å huske, og enkel å bruke i mange
               sammenhenger.
             </p>
             <img src="img\design\rekologo1.png" alt="" />
